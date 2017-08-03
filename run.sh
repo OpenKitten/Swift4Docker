@@ -2,4 +2,4 @@
 
 cd /root/$1
 swift build -c release
-.build/release/$2
+/root/$1/.build/release/$2
