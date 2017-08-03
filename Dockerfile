@@ -12,7 +12,8 @@ RUN apt-get update; apt-get install -y \
   libicu-dev \
   wget \
   libcurl4-openssl-dev \
-  libssl-dev
+  libssl-dev \
+  libxml2-dev
 
 RUN wget https://swift.org/builds/swift-4.0-branch/ubuntu1604/swift-4.0-DEVELOPMENT-SNAPSHOT-2017-07-20-a/swift-4.0-DEVELOPMENT-SNAPSHOT-2017-07-20-a-ubuntu16.04.tar.gz
 RUN tar xzvf swift-4.0-DEVELOPMENT-SNAPSHOT-2017-07-20-a-ubuntu16.04.tar.gz -C /root
